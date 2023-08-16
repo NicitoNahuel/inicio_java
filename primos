@@ -1,0 +1,43 @@
+package gcgcf;
+
+public class Program {
+	public static void main(String[] args) {
+		int numero = 0 ;
+		for (int i=50; i<100; i++)
+        {
+			numero=i;
+            if (numero % 2 == 0)
+            {System.out.println ("el numero es divisible por 2");}	
+            if (numero % 3 == 0)	
+            {System.out.println ("el numero es divisible por 3");}
+            if (numero % 5 == 0)
+            {System.out.println ("el numero es divisible por 5");}
+            if (numero % 7 == 0)
+            {System.out.println ("el numero es divisible por 7");}
+            if (numero % 11 == 0)
+            {System.out.println ("el numero es divisible por 11");}
+      		if (numero % 13 == 0)
+      		{System.out.println ("el numero es divisible por 13");}
+   			if (numero % 17 == 0)
+   			{System.out.println ("el numero es divisible por 17");}
+       		if (numero % 19 == 0)
+       		{System.out.println ("el numero es divisible por 19");}
+            if (numero % 23 == 0)
+            {System.out.println ("el numero es divisible por 23");}
+            if (numero % 29 == 0)
+            {System.out.println ("el numero es divisible por 29");}
+            if (numero % 31 == 0)
+            {System.out.println ("el numero es divisible por 31");}
+            if (numero % 37 == 0)
+            {System.out.println ("el numero es divisible por 37");}
+            if (numero % 41 == 0)
+            {System.out.println ("el numero es divisible por 41");}
+            if (numero % 43 == 0)
+            {System.out.println ("el numero es divisible por 43");}
+            if (numero % 47 == 0)
+            {System.out.println ("el numero es divisible por 47");}
+            if (numero==53 || numero==59 || numero==61 ||numero==67 || numero==71 || numero==73 || numero==79 || numero==83 || numero==89 || numero== 97)
+            {System.out.println ("el numero" + numero + "es primo");}
+        }
+	}
+}

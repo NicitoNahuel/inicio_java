@@ -1,1 +1,9 @@
-
+module poyecto {
+	public class Program {
+		public static void main(String[] args) {
+			int numero = sc.nextInt();
+			if ()
+			if (numero>100 && primo == 1)
+		}
+	}
+}

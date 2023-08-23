@@ -1,0 +1,57 @@
+package calculadora;
+
+public class Program {
+	public static void main(String[] args) {
+        System.out.println ("Que operacion desea realizar? (1) suma (2) resta (3) multiplicacion (4) division");
+        int opcion = sc.nextInt();
+        switch (opcion){
+
+            case 1: {
+                //suma
+                System.out.println ("ingrese los numeros que quiere sumar: ");
+                int primerNumero = sc.nextInt();
+                System.out.println ("+");
+                int segundoNumero = sc.nextInt();
+                int resultado = segundoNumero + primerNumero;
+                System.out.println (resultado);
+            }
+            break;
+
+            case 2: {
+                //resta
+                System.out.println ("ingrese los numeros que quiere restar: ");
+                int primerNumero = sc.nextInt();
+                System.out.println ("-");
+                int segundoNumero = sc.nextInt();
+                int resultado = segundoNumero - primerNumero;
+                System.out.println (resultado);
+            }
+            break;
+
+            case 3: {
+                //multiplicacion
+                System.out.println ("ingrese los numeros que quiere multiplicar: ");
+                int primerNumero = sc.nextInt();
+                System.out.println ("*");
+                int segundoNumero = sc.nextInt();
+                int resultado = segundoNumero * primerNumero;
+                System.out.println (resultado);
+            }
+            break;
+
+            case 4: {
+                //division
+                System.out.println ("ingrese los numeros que quiere dividir: ");
+                int primerNumero = sc.nextInt();
+                System.out.println ("/");
+                int segundoNumero = sc.nextInt();
+                int resultado = segundoNumero / primerNumero;
+                System.out.println (resultado);
+
+            }
+            break;
+
+        }
+
+    }
+}
